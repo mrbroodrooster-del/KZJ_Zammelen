@@ -1,20 +1,65 @@
-.menu {
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: fffedb;
+    height: 20px;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
     align-items: center;
-    background-color: yellow;
+    background-color: #fff903;
     margin: 0;
     padding: 10px;
     text-align: center;
 }
 
+.logo2 img {
+    height: 60px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+
+
+.menu {
+    align-items: center;
+    background-color: #fff903;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding-left: 37px; 
+}
+
+.menu table td {
+    width: fit-content;
+    border: none;
+}
+
+.MenuWhitespace {
+    width: 500px;
+}
+
+
 .menu a {
     color: black;
     padding: 10px;
     text-decoration: none;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -26,14 +71,6 @@
     border-width: 0.1px;
 }
 
-.lijn {
-    margin-top: 10px;
-    width: 100%;
-    height: 5px;
-    background-color: yellow;
-    height: 5px;
-    width: 100%;
-}
 
 .banner {
     width: fit-content;
@@ -41,7 +78,6 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
 }
 
 .banner img {
@@ -49,19 +85,29 @@
     height: 600px;
     object-fit: cover;
     border-style: solid;
-    border-color: white;
     border-width: 5px;
 }
 
 body {
-    background-color: #fff;
+    background-color: #fffedb;
     margin: 0;
     padding: 0;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer td {
+    color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 .content {
     padding: 20px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff;
 }
